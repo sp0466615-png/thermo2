@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Litharge Oxide Plant</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #ff5a00;
+            --dark: #0f172a;
+            --gray: #64748b;
+            --light: #f8fafc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background: #fff;
+            color: var(--dark);
+        }
+
+        /* HERO (Copper Style) */
+        .hero {
+            padding: 120px 20px;
+            text-align: center;
+            color: #fff;
+            background:
+                linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('image/15.png') center/cover;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            margin-top: 10px;
+            color: #ddd;
+        }
+
+        /* SECTION */
+        .section {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        /* GRID */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        /* IMAGE */
+        .image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* TEXT */
+        .text h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .text p {
+            color: var(--gray);
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+
+        /* HIGHLIGHT BLOCK */
+        .highlight {
+            background: #0f172a;
+            color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .highlight h1 {
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        /* FEATURE STRIP */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .card {
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .card h1 {
+            color: var(--primary);
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: var(--gray);
+        }
+
+        /* CTA */
+        .cta {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .cta a {
+            padding: 12px 25px;
+            background: var(--primary);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        /* RESPONSIVE */
+        @media(max-width:900px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+        }
+
+        .dark {
+            background: var(--dark);
+            color: #fff;
+            padding: 80px 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .dark h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .dark p {
+            color: #cbd5e1;
+            max-width: 700px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Litharge Oxide Plant</h1>
+        <p>Advanced Lead Oxide Processing System</p>
+    </section>
+
+    <!-- MAIN -->
+    <section class="section">
+
+        <div class="grid">
+
+            <!-- TEXT -->
+            <div class="text">
+                <h1>About Litharge Oxide Plant</h1>
+
+                <p>
+                    Litharge Oxide (Yellow Oxide), also known as Lead Monoxide, is produced from
+                    Lead Sub Oxide using a specially designed furnace system.
+                </p>
+
+                <p>
+                    The raw material from the Barton Mill Plant is further processed in a
+                    <strong>Stainless Steel Furnace Pot</strong> where it reacts with natural oxygen
+                    at controlled temperatures.
+                </p>
+
+                <p>
+                    This process results in the formation of high-quality Litharge Oxide,
+                    widely used in industrial applications.
+                </p>
+
+                <p>
+                    Our plant is engineered using modern technology ensuring high efficiency,
+                    durability, and consistent output.
+                </p>
+            </div>
+
+            <!-- IMAGE -->
+            <div class="image">
+                <img src="image/a.png">
+            </div>
+
+        </div>
+
+        <!-- WORKING -->
+        <div class="highlight">
+            <h1>Working Process</h1>
+
+            <p>
+                The Lead Sub Oxide is charged into the furnace and heated to a specific temperature.
+                A stainless steel stirrer continuously rotates inside the furnace to ensure proper mixing
+                and reaction with oxygen.
+            </p>
+
+            <p>
+                The system is equipped with a heavy-duty <strong>Reduction Gear Box</strong> driven by a motor,
+                ensuring smooth and maintenance-free operation over long periods.
+            </p>
+
+            <p>
+                This advanced mechanism ensures efficient oxidation and high-quality production of Litharge Oxide.
+            </p>
+        </div>
+
+        <!-- FEATURES -->
+        <div class="features">
+
+            <div class="card">
+                <h1>High Efficiency</h1>
+                <p>Optimized system for consistent oxide production.</p>
+            </div>
+
+            <div class="card">
+                <h1>Durable Design</h1>
+                <p>Heavy-duty gearbox ensures long operational life.</p>
+            </div>
+
+            <div class="card">
+                <h1>Low Maintenance</h1>
+                <p>Advanced engineering reduces maintenance cost.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="copper-section">
+
+        <div class="copper-container">
+
+            <div class="copper-text">
+                <h1>Copper Furnaces</h1>
+
+                <p>
+                    Thermo Tech (India) also specializes in manufacturing high-performance
+                    <strong>Copper Furnaces</strong> designed for efficient melting and processing
+                    of copper and its alloys.
+                </p>
+
+                <p>
+                    Our copper furnace systems are engineered using advanced thermal technology
+                    to ensure uniform heating, reduced fuel consumption, and maximum output efficiency.
+                </p>
+
+                <p>
+                    These furnaces are widely used in industries for melting, refining, and recycling
+                    copper scrap with high precision and reliability.
+                </p>
+
+                <p>
+                    Built with robust materials and modern control systems, our copper furnaces
+                    deliver long operational life with minimal maintenance requirements.
+                </p>
+
+            </div>
+
+            <div class="copper-image">
+                <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1000"
+                    alt="Copper Furnace">
+            </div>
+
+        </div>
+
+        <!-- EXTRA FEATURES -->
+        <div class="copper-features">
+
+            <div class="copper-card">
+                <h1>Efficient Heating</h1>
+                <p>Ensures fast melting with uniform temperature distribution.</p>
+            </div>
+
+            <div class="copper-card">
+                <h1>Fuel Saving</h1>
+                <p>Optimized system reduces operational fuel costs.</p>
+            </div>
+
+            <div class="copper-card">
+                <h1>Heavy Duty Build</h1>
+                <p>Designed for continuous industrial operations.</p>
+            </div>
+
+            <div class="copper-card">
+                <h1>Low Maintenance</h1>
+                <p>Advanced components ensure smooth and long-term usage.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <style>
+        .copper-section {
+            margin-top: 80px;
+            padding: 60px 20px;
+            background: #f8fafc;
+        }
+
+        .copper-container {
+            max-width: 1100px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .copper-text h1 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        .copper-text p {
+            color: #64748b;
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+
+        .copper-image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* FEATURES */
+        .copper-features {
+            max-width: 1100px;
+            margin: 50px auto 0;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .copper-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .copper-card:hover {
+            transform: translateY(-5px);
+            border-color: #ff5a00;
+        }
+
+        .copper-card h1 {
+            color: #ff5a00;
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+        }
+
+        .copper-card p {
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        /* RESPONSIVE */
+        @media(max-width:900px) {
+            .copper-container {
+                grid-template-columns: 1fr;
+            }
+
+            .copper-features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <div class="cta">
+        <a href="index.html">Home page</a>
+    </div>
+
+    <section class="dark">
+        <h1>Copper Furnaces</h1>
+
+        <p>
+            We are a trusted manufacturer and supplier of high-performance
+            <strong>Copper Furnaces</strong> in Uttar Pradesh, India. Our furnaces
+            are designed for efficient melting, refining, and recycling of copper
+            and its alloys with maximum output efficiency.
+        </p>
+    </section>
+
+</body>
+
+</html>

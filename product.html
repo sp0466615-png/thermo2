@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product-showcase {
+    padding: 60px 5%;
+    background: linear-gradient(135deg, #0c2b4e, #007671);
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* SLIDER */
+.slider-wrapper {
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    gap: 25px;
+    animation: scroll 20s linear infinite;
+}
+
+/* CARD */
+.card {
+    min-width: 280px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+
+/* AUTO SLIDE */
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    .card {
+        min-width: 220px;
+    }
+}
+    </style>
+</head>
+<body>
+    <section class="product-showcase">
+
+    <h2 class="section-title">Industrial Products</h2>
+
+    <div class="slider-wrapper">
+
+        <div class="slider-track">
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200">
+                <h3>Petroleum Oils</h3>
+                <p>HSN Code: 2710</p>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200">
+                <h3>Grinding Wheels</h3>
+                <p>HSN Code: 6804</p>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200">
+                <h3>Steel Bars</h3>
+                <p>HSN Code: 7214</p>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200">
+                <h3>Bolts & Nuts</h3>
+                <p>HSN Code: 7318</p>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200">
+                <h3>Industrial Machines</h3>
+                <p>HSN Code: 8479</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+</body>
+</html>
